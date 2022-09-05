@@ -1,2 +1,2 @@
 export * from './productListing'
-export * from './productPage'
+export * from './singleProduct'

@@ -8,5 +8,16 @@ export const Container = styled.section`
   width: 100%;
   padding: 30px;
   /* background-color: ${colors.primary}; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
+
+  &>div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &>h2{
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
 `;
